@@ -9,7 +9,6 @@ import { ContactService } from 'src/app/contacts/contacts.service';
   standalone: true,
   imports: [CommonModule, FormsModule],
   templateUrl: './add-contact.component.html',
-  styleUrls: ['./add-contact.component.css']
 })
 export class AddContactComponent {
   newContact: Contact = { id: 0, name: '', email: '', phone: '' };

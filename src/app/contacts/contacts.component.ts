@@ -10,7 +10,6 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './contacts.component.html',
-  styleUrl: './contacts.component.css'
 })
 export class ContactsComponent implements OnInit {
   contacts: Contact[] = [];

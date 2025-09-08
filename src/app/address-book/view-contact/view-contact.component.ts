@@ -10,7 +10,6 @@ import { Contact } from 'src/app/contacts/contacts.model';
   standalone: true,
   imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './view-contact.component.html',
-  styleUrls: ['./view-contact.component.css']
 })
 export class ViewContactComponent implements OnInit {
   contact: Contact | undefined;
