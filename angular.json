@@ -25,9 +25,6 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
             "scripts": [],
             "browser": "src/main.ts"
           },
@@ -85,9 +82,6 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
             ],
             "scripts": []
           }

@@ -1,5 +1,4 @@
 //CONTACT SERVICE
-
 import { Injectable } from '@angular/core';
 import { Contact } from './contacts.model';
 
